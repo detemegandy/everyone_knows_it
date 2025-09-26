@@ -34,7 +34,7 @@
   "params": {
     "model": {
       "haiku": "claude-3-haiku-20240307",
-      "sonnet": "claude-3-5-sonnet-20240620"
+      "sonnet": "claude-3-7-sonnet-20250219"
     },
     "temperature": {
       "high": 1.0,

@@ -19,6 +19,13 @@ registry_persons = Registry({
         'skills': os.path.join(path_to_data_dir, 'gregor_samsa_skills.json'),
         'publications': os.path.join(path_to_data_dir, 'gregor_samsa_publications.json'),
         'personal_musings': os.path.join(path_to_data_dir, 'gregor_samsa_musings.json'),
+    },
+    'andreas saltveit': {
+        'education': os.path.join(path_to_data_dir, 'andreas_saltveit_education.json'),
+        'employment': os.path.join(path_to_data_dir, 'andreas_saltveit_employment.json'),
+        'skills': os.path.join(path_to_data_dir, 'andreas_saltveit_skills.json'),
+        'publications': os.path.join(path_to_data_dir, 'andreas_saltveit_publications.json'),
+        'personal_musings': os.path.join(path_to_data_dir, 'andreas_saltveit_musings.json'),
     }},
     read=True
 )
@@ -28,6 +35,9 @@ registry_job_ads = Registry({
     },
     'geworfenheit': {
         'urban entomology specialist': os.path.join(path_to_ad_dir, 'geworfenheit.txt'),
+    },
+    'head energy': {
+        'data engineer': os.path.join(path_to_ad_dir, 'head_energy.txt'),
     }},
     read=True
 )

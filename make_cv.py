@@ -2,6 +2,7 @@
 
 """
 import typer
+from dotenv import load_dotenv
 
 from src import (
     JobAdQualityExtractor,
@@ -82,6 +83,7 @@ def run_main_for_testing(**kwargs):
 
 
 if __name__ == '__main__':
+    load_dotenv()
 #    run_main_for_testing(
 #        job_ad_company='geworfenheit',
 #        job_ad_title='urban entomology specialist',

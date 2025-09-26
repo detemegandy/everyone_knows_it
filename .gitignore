@@ -1,0 +1,10 @@
+.env
+.DS_Store
+__pycache__
+andreas_saltveit_data_engineer_head_energy_cv.html
+abtDataStore/andreas_saltveit_education.json
+abtDataStore/andreas_saltveit_employment.json
+abtDataStore/andreas_saltveit_musings.json
+abtDataStore/andreas_saltveit_publications.json
+abtDataStore/andreas_saltveit_skills.json
+jobAdsStore/head_energy.txt
